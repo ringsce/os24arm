@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['false_0',['FALSE',['../os2_8h.html#aa93f0eb578d23995850d61f7d61c55c1',1,'os2.h']]],
+  ['false_1',['false',['../stdbool_8h.html#a65e9886d74aaee76545e83dd09011727',1,'false:&#160;stdbool.h'],['../types_8h.html#a65e9886d74aaee76545e83dd09011727',1,'false:&#160;types.h']]],
+  ['fat32_5fattr_5farchive_2',['FAT32_ATTR_ARCHIVE',['../fat32_8h.html#ad1de8c7bce7607d4eeb5627e7cdf0bbe',1,'fat32.h']]],
+  ['fat32_5fattr_5fdir_3',['FAT32_ATTR_DIR',['../fat32_8h.html#aa05918e3a43346bdaf26d182f860eacd',1,'fat32.h']]],
+  ['fat32_5fattr_5fhidden_4',['FAT32_ATTR_HIDDEN',['../fat32_8h.html#a441b29ddcf6faf47a8cd4d881e28243a',1,'fat32.h']]],
+  ['fat32_5fattr_5flfn_5',['FAT32_ATTR_LFN',['../fat32_8h.html#a8b11f556176ff26d4303cf52773698f2',1,'fat32.h']]],
+  ['fat32_5fattr_5frdonly_6',['FAT32_ATTR_RDONLY',['../fat32_8h.html#a0fdd9b2c98a67daccc270a90d5f283eb',1,'fat32.h']]],
+  ['fat32_5fattr_5fsystem_7',['FAT32_ATTR_SYSTEM',['../fat32_8h.html#a5aeac776420be135cb83b127a748d3eb',1,'fat32.h']]],
+  ['fat32_5fattr_5fvolid_8',['FAT32_ATTR_VOLID',['../fat32_8h.html#a01bc659787bf2e8bdec76edeb8f749db',1,'fat32.h']]],
+  ['fat32_5fbad_9',['FAT32_BAD',['../fat32_8h.html#aa0708c711ffc1bb9c7e6f3c9edbc93ca',1,'fat32.h']]],
+  ['fat32_5feoc_10',['FAT32_EOC',['../fat32_8h.html#a51e12e169fc6cb1c85b8c1d11347566a',1,'fat32.h']]],
+  ['fat32_5ffree_11',['FAT32_FREE',['../fat32_8h.html#acb7684f3b240e0fb39bb5af15e6616e4',1,'fat32.h']]],
+  ['fat32_5fmax_5fopen_5fdirs_12',['FAT32_MAX_OPEN_DIRS',['../fat32_8h.html#a10c7ffc4cfc7cad025bc6d1a5efb9776',1,'fat32.h']]],
+  ['fat32_5fmax_5fopen_5ffiles_13',['FAT32_MAX_OPEN_FILES',['../fat32_8h.html#ab90308df67c429cae1a35f42fccfac1b',1,'fat32.h']]],
+  ['fat32_5fsignature_14',['FAT32_SIGNATURE',['../fat32_8h.html#ac7e03adb4f2c52d758667493a974cca3',1,'fat32.h']]],
+  ['fs_5fexfat_15',['FS_EXFAT',['../kernel_8c.html#a50bfa912e87473bc54333523983f39f6',1,'kernel.c']]],
+  ['fs_5fext4_16',['FS_EXT4',['../kernel_8c.html#aeb4f70332bb22235ada024a546d9b40e',1,'kernel.c']]],
+  ['fs_5ffat16_17',['FS_FAT16',['../kernel_8c.html#a7ef90a36d99edfc0138a2155a17a79b9',1,'kernel.c']]],
+  ['fs_5ffat32_18',['FS_FAT32',['../kernel_8c.html#ac63e0796095a789cefdbc3c3c676c9ce',1,'kernel.c']]]
+];

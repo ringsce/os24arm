@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['error_5faccess_5fdenied_0',['ERROR_ACCESS_DENIED',['../os2__api_8h.html#aeed98d3d6aec00b22a04eb8836d77a51',1,'os2_api.h']]],
+  ['error_5fbuffer_5foverflow_1',['ERROR_BUFFER_OVERFLOW',['../os2__api_8h.html#a0cd671944fa17f14d21ea6402da00c9d',1,'os2_api.h']]],
+  ['error_5fdirectory_2',['ERROR_DIRECTORY',['../os2__api_8h.html#a4f7e0c7d2567e3bb5c263295f22ca0ea',1,'os2_api.h']]],
+  ['error_5ffile_5fnot_5ffound_3',['ERROR_FILE_NOT_FOUND',['../os2__api_8h.html#aecc8b368d5ba0386b219fdd6a916b0b2',1,'os2_api.h']]],
+  ['error_5ffilename_5fexced_5frange_4',['ERROR_FILENAME_EXCED_RANGE',['../os2__api_8h.html#aaec76fe1c8ae08351f88178996db26fb',1,'os2_api.h']]],
+  ['error_5fhandle_5fdisk_5ffull_5',['ERROR_HANDLE_DISK_FULL',['../os2__api_8h.html#a9bda9fc892d75ddb2f07de61f07adcbf',1,'os2_api.h']]],
+  ['error_5fhandle_5feof_6',['ERROR_HANDLE_EOF',['../os2__api_8h.html#a71791529fd25c32cd91d6a716e5e1755',1,'os2_api.h']]],
+  ['error_5finvalid_5fdrive_7',['ERROR_INVALID_DRIVE',['../os2__api_8h.html#af51c8c1cb5ab7c82b3d5e8cbca485d3a',1,'os2_api.h']]],
+  ['error_5finvalid_5fhandle_8',['ERROR_INVALID_HANDLE',['../os2__api_8h.html#ac5083578cba1fa368ae57edc1b0c6a69',1,'os2_api.h']]],
+  ['error_5finvalid_5fparameter_9',['ERROR_INVALID_PARAMETER',['../os2__api_8h.html#a176960f93d11db6f58d10a6957a80f38',1,'os2_api.h']]],
+  ['error_5fno_5fmore_5ffiles_10',['ERROR_NO_MORE_FILES',['../os2__api_8h.html#a9f424565beb1161bf33b31748c6c16ba',1,'os2_api.h']]],
+  ['error_5fnot_5fdos_5fdisk_11',['ERROR_NOT_DOS_DISK',['../os2__api_8h.html#a823e9987adc43c9f81fc6582ad7ceb28',1,'os2_api.h']]],
+  ['error_5fnot_5fenough_5fmemory_12',['ERROR_NOT_ENOUGH_MEMORY',['../os2__api_8h.html#a0e8ed8133680d2d6b8909e71b8048307',1,'os2_api.h']]],
+  ['error_5fnot_5fsupported_13',['ERROR_NOT_SUPPORTED',['../os2__api_8h.html#ab72d05032a6d1152bad9af394811d447',1,'os2_api.h']]],
+  ['error_5fpath_5fnot_5ffound_14',['ERROR_PATH_NOT_FOUND',['../os2__api_8h.html#a4b831df2ccb540250221f9e617ad85a4',1,'os2_api.h']]],
+  ['error_5fsharing_5fviolation_15',['ERROR_SHARING_VIOLATION',['../os2__api_8h.html#a276cf9ef9a2e71de1cf2264957a0af6c',1,'os2_api.h']]],
+  ['error_5fwrite_5fprotect_16',['ERROR_WRITE_PROTECT',['../os2__api_8h.html#a4dcb606334e48659edd840de8ac94a79',1,'os2_api.h']]]
+];

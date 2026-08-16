@@ -1,0 +1,24 @@
+var blkdev_8c =
+[
+    [ "ramdisk_priv_t", "structramdisk__priv__t.html", "structramdisk__priv__t" ],
+    [ "virtio_blk_priv_t", "structvirtio__blk__priv__t.html", "structvirtio__blk__priv__t" ],
+    [ "MAX_BLKDEVS", "blkdev_8c.html#a07cfd36f3586f0e0354310a597be7297", null ],
+    [ "SECTOR_SIZE", "blkdev_8c.html#aa35bad1e92008da628f27b2f6bb270aa", null ],
+    [ "blkdev_get_by_name", "blkdev_8c.html#a67260ac6d674a1eb0865a2b3f070b8b2", null ],
+    [ "blkdev_init", "blkdev_8c.html#aaed95deaf01624669db8508c5e076263", null ],
+    [ "blkdev_list", "blkdev_8c.html#a8b0bec61d978f21585578fe1edeb42da", null ],
+    [ "blkdev_register", "blkdev_8c.html#aeaf44ead532a86059e7c48c70c167c8c", null ],
+    [ "ramdisk_create", "blkdev_8c.html#a285b3e31d0d12b3b4e1a08576badaf46", null ],
+    [ "ramdisk_read", "blkdev_8c.html#a45218bc57effb1c881595b964bcda8fc", null ],
+    [ "ramdisk_write", "blkdev_8c.html#afe535c78b7f7e531a909ea7efb88c293", null ],
+    [ "virtio_blk_init", "blkdev_8c.html#a655d7e43d7f4ed5d941a439949cf0db4", null ],
+    [ "virtio_blk_read", "blkdev_8c.html#af9fcd7aca59fdf83e7a6a8a2a7ebc58a", null ],
+    [ "virtio_blk_write", "blkdev_8c.html#acb76a3bcca66f8af6df069c3c2905f81", null ],
+    [ "blkdev_count", "blkdev_8c.html#a0f6522371d05762cf4014767fd96a963", null ],
+    [ "blkdevs", "blkdev_8c.html#afa871f992cc96b246e2fc3defb933533", null ],
+    [ "ramdisk_dev", "blkdev_8c.html#ae4ae9bb96f5b60ca8be00c04dd6af23e", null ],
+    [ "ramdisk_priv", "blkdev_8c.html#a411af9b3be94b24af06164efd2ede6ed", null ],
+    [ "vio_sector_buf", "blkdev_8c.html#ab7484b79fbf22d81a839b9dec5618a31", null ],
+    [ "virtio_dev", "blkdev_8c.html#a5afc97be19e4c4f636af57972c8d224c", null ],
+    [ "virtio_priv", "blkdev_8c.html#ad21e0cc8824925a94e52fde857826cd5", null ]
+];

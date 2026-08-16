@@ -1,0 +1,26 @@
+var vfs_8c =
+[
+    [ "alloc_dfd", "vfs_8c.html#a290001dc7e0732989064652e67ae2005", null ],
+    [ "alloc_fd", "vfs_8c.html#a1562983c877806b2a1b34eb1ffb0e256", null ],
+    [ "find_mount", "vfs_8c.html#aa1655aca5606cea810c59a780687a469", null ],
+    [ "relative_path", "vfs_8c.html#aa6ff2ef5f727e60e0eef8f26003673da", null ],
+    [ "vfs_close", "vfs_8c.html#a60d1dba40888b0dadfbb4f0a30e1cb89", null ],
+    [ "vfs_closedir", "vfs_8c.html#ad1e7d5214e0298e9ea2cb7e685a10d06", null ],
+    [ "vfs_init", "vfs_8c.html#ad89e2e37c12feb399081c34cc98f49ae", null ],
+    [ "vfs_mkdir", "vfs_8c.html#a8e9df865707f5b3de7bfea837e49bf5f", null ],
+    [ "vfs_mount", "vfs_8c.html#a2e656c865975faef7552b5bcafbb3c90", null ],
+    [ "vfs_open", "vfs_8c.html#a93b935a22c4247c8902c6eb1ea9bfe2a", null ],
+    [ "vfs_opendir", "vfs_8c.html#a28c1e2245996aa90b5560b6a70d88582", null ],
+    [ "vfs_read", "vfs_8c.html#a200efda6a42c98eb4fa005162eb6b344", null ],
+    [ "vfs_readdir", "vfs_8c.html#a26a172c47fe5be9c2e7cbaa3739d1ccb", null ],
+    [ "vfs_rename", "vfs_8c.html#aa7429c3c52e8658e2253ed835c4de188", null ],
+    [ "vfs_seek", "vfs_8c.html#a6bc353541ff4e90008e7960dc32178ef", null ],
+    [ "vfs_stat", "vfs_8c.html#aec39c5a90842ff8b32b502c900198c92", null ],
+    [ "vfs_unlink", "vfs_8c.html#a7101805f3efc3366b40acfe30a079982", null ],
+    [ "vfs_unmount", "vfs_8c.html#adb8c5616b2612e30dfed6b810e58f196", null ],
+    [ "vfs_write", "vfs_8c.html#a136e50e74abfb3bbeb9570eb8a0096c2", null ],
+    [ "dirs", "vfs_8c.html#ae7212a1fa2d8068b7d9293d69bd83e81", null ],
+    [ "files", "vfs_8c.html#adcddbad482c56fe3ec50d989b06bb15c", null ],
+    [ "mount_count", "vfs_8c.html#a987e0fcfe10cfdf6f31cf44bc3f34f50", null ],
+    [ "mounts", "vfs_8c.html#a8293f0d7380e4e51178127b1aa02d36d", null ]
+];

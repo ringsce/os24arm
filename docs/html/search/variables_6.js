@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['fat_5fcount_0',['fat_count',['../structfat32__bpb__t.html#a07a53e45cd03ff4bdd69580c6e403257',1,'fat32_bpb_t']]],
+  ['fat_5fsize_5f16_1',['fat_size_16',['../structfat32__bpb__t.html#af23ef9211560b6190c4cdfb75f4a8327',1,'fat32_bpb_t']]],
+  ['fat_5fsize_5f32_2',['fat_size_32',['../structfat32__bpb__t.html#a6cf28e7e97c9f7f1f5d96261d989ae27',1,'fat32_bpb_t']]],
+  ['fat_5fsize_5fsectors_3',['fat_size_sectors',['../structfat32__mount__t.html#a2ae014ed42459c9e66c75feba18c0b17',1,'fat32_mount_t']]],
+  ['fat_5fstart_5flba_4',['fat_start_lba',['../structfat32__mount__t.html#ab7cd23222fb847cd0b8558ffd8a0b92e',1,'fat32_mount_t']]],
+  ['features_5',['features',['../structvirtio__device__t.html#afdf62bd5cee12fc3697baa81c4edbe60',1,'virtio_device_t']]],
+  ['file_5fsize_6',['file_size',['../structfat32__dirent__t.html#a2a2fc4b89c524eb57dd1346aa10cf7a8',1,'fat32_dirent_t::file_size'],['../structfat32__file__t.html#a452524927fcdcf9eb6c674217ab80385',1,'fat32_file_t::file_size'],['../structFILESTATUS.html#ab4b294810cb7ed114af6650bba783cd4',1,'FILESTATUS::file_size'],['../structFILEFINDBUF.html#a89d77535d211a5bc5f101c3059747dd8',1,'FILEFINDBUF::file_size']]],
+  ['files_7',['files',['../vfs_8c.html#adcddbad482c56fe3ec50d989b06bb15c',1,'vfs.c']]],
+  ['first_5fcluster_8',['first_cluster',['../structfat32__file__t.html#a1f0371e24ac6178874cca171d9112d0b',1,'fat32_file_t']]],
+  ['first_5flba_9',['first_lba',['../structgpt__partition__t.html#ab5f59b30ea9f3472455b2008a5d2f997',1,'gpt_partition_t']]],
+  ['first_5fusable_5flba_10',['first_usable_lba',['../structgpt__header__t.html#a7634684494f56a43780975fffd04d92c',1,'gpt_header_t']]],
+  ['flags_11',['flags',['../structblkdev.html#a2d92c485edef13f4c2fa0a518340e588',1,'blkdev::flags'],['../structfat32__file__t.html#a782a1cbee0f96a6b5a3eab7a43e99711',1,'fat32_file_t::flags'],['../structvfs__file.html#a86a269df728ed0dd68b4a9959bd9f85c',1,'vfs_file::flags']]],
+  ['for_5fidx_12',['for_idx',['../structfor__frame__t.html#a405c021cc9874093a6013e27a5e188ff',1,'for_frame_t']]],
+  ['for_5fstack_13',['for_stack',['../basic_8c.html#ad7521c32785e3fe7ffb33a00d3d436c9',1,'basic.c']]],
+  ['for_5fstmt_14',['for_stmt',['../structfor__frame__t.html#a803e75885956b7d0a641ff089f697ba4',1,'for_frame_t']]],
+  ['for_5ftop_15',['for_top',['../basic_8c.html#a75da5c2017c3d7c97aa1b11227c9e24f',1,'basic.c']]],
+  ['fpriv_16',['fpriv',['../structvfs__file.html#a0c6fee245bfd20d0721e4c9e116b5e3d',1,'vfs_file']]],
+  ['free_17',['free',['../structblock__hdr.html#aeefe926a0cca40e4a7b36cab0e3b945a',1,'block_hdr']]],
+  ['free_5flist_18',['free_list',['../memory_8c.html#a3e8f50fd517579597f39d308b82aa928',1,'memory.c']]],
+  ['fs_19',['fs',['../structvfs__mount.html#a6a76e939a027c8ed37bb8da7c7e8db0a',1,'vfs_mount']]],
+  ['fs_5finfo_5fsector_20',['fs_info_sector',['../structfat32__bpb__t.html#a242be2041f4f3f149a9acdd0ff25448f',1,'fat32_bpb_t']]],
+  ['fs_5ftype_21',['fs_type',['../structfat32__bpb__t.html#a720856abd558af6b9fad2fcf3fe37d36',1,'fat32_bpb_t']]],
+  ['fs_5fversion_22',['fs_version',['../structfat32__bpb__t.html#a22fbdea4293f6853885bd9be03a6da5e',1,'fat32_bpb_t']]]
+];

@@ -1,0 +1,29 @@
+# Raspberry Pi 3+ Boot Configuration for OS/2 Warp ARM64
+
+# Enable 64-bit mode
+arm_64bit=1
+
+# Set ARM frequency (optional, improves performance)
+arm_freq=1400
+
+# Disable rainbow splash screen
+disable_splash=1
+
+# Enable UART for debugging
+enable_uart=1
+uart_2ndstage=1
+
+# Kernel filename (64-bit kernel)
+kernel=kernel8.img
+
+# Core frequency (for UART)
+core_freq=250
+
+# Memory split (give all to ARM, none to GPU for bare metal)
+gpu_mem=16
+
+# Disable device tree (we're bare metal)
+device_tree=
+
+# Boot delay (optional, gives time to see messages)
+boot_delay=1

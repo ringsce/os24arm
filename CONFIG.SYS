@@ -1,0 +1,345 @@
+REM ═══════════════════════════════════════════════════════════════════
+REM  CONFIG.SYS — OS/2 Warp 4.52 ARM64 System Configuration
+REM  
+REM  This file configures the OS/2 system environment, device drivers,
+REM  and system parameters for ARM64 architecture.
+REM ═══════════════════════════════════════════════════════════════════
+
+REM ───────────────────────────────────────────────────────────────────
+REM  BASIC SYSTEM CONFIGURATION
+REM ───────────────────────────────────────────────────────────────────
+
+REM Country code (United States)
+COUNTRY=001,C:\OS2\SYSTEM\COUNTRY.SYS
+
+REM Code page (850 - Multilingual Latin I)
+CODEPAGE=850,437
+
+REM Device configuration
+DEVINFO=KBD,US,C:\OS2\KEYBOARD.DCP
+DEVINFO=SCR,VGA,C:\OS2\VIOTBL.DCP
+
+REM ───────────────────────────────────────────────────────────────────
+REM  FILE SYSTEM CONFIGURATION
+REM ───────────────────────────────────────────────────────────────────
+
+REM Number of file handles
+FILES=256
+
+REM Number of file control blocks
+FCBS=16,8
+
+REM Buffer configuration (increased for better performance)
+BUFFERS=90
+
+REM Disk buffer optimization
+DISKCACHE=2048,LW,AC:*
+
+REM I/O privilege segments
+IOPL=YES
+
+REM Memory decommit size (4MB)
+MEMMAN=SWAP,PROTECT
+VIRTUALADDRESSLIMIT=2048
+
+REM ───────────────────────────────────────────────────────────────────
+REM  PATH AND LIBRARY CONFIGURATION
+REM ───────────────────────────────────────────────────────────────────
+
+REM System paths
+SET PATH=C:\OS2;C:\OS2\BIN;C:\OS2\APPS;C:\;C:\OS2\MDOS;C:\OS2\INSTALL
+SET DPATH=C:\OS2;C:\OS2\BITMAP;C:\OS2\ICONS;C:\OS2\HELP;C:\;
+
+REM Library paths
+SET LIBPATH=.;C:\OS2\DLL;C:\OS2\MDOS;C:\;C:\OS2\APPS\DLL;
+
+REM Help path
+SET HELP=C:\OS2\HELP;C:\OS2\HELP\TUTORIAL;
+
+REM Temporary directory
+SET TEMP=C:\TEMP
+SET TMP=C:\TEMP
+
+REM ───────────────────────────────────────────────────────────────────
+REM  DEVICE DRIVERS (ARM64)
+REM ───────────────────────────────────────────────────────────────────
+
+REM Base device drivers
+BASEDEV=PRINT01.SYS
+BASEDEV=IBM1FLPY.ADD
+BASEDEV=IBM1S506.ADD
+BASEDEV=IBMIDECD.FLT
+
+REM ARM64-specific drivers
+REM VirtIO block device for QEMU/KVM
+BASEDEV=VIRTIO_BLK.SYS
+
+REM VirtIO network device
+BASEDEV=VIRTIO_NET.SYS
+
+REM RAM disk driver
+BASEDEV=VDISK.SYS 4096
+
+REM Console and keyboard drivers
+DEVICE=C:\OS2\MDOS\VEMM.SYS
+DEVICE=C:\OS2\MDOS\VMOUSE.SYS
+DEVICE=C:\OS2\BOOT\POINTDD.SYS
+DEVICE=C:\OS2\BOOT\MOUSE.SYS TYPE=MSBUS$
+
+REM Serial port driver
+DEVICE=C:\OS2\BOOT\COM.SYS (3F8,4,,,)
+
+REM Printer support
+DEVICE=C:\OS2\BOOT\PRINT01.SYS
+DEVICE=C:\OS2\BOOT\PMSPOOL.SYS
+
+REM ───────────────────────────────────────────────────────────────────
+REM  FILE SYSTEM DRIVERS
+REM ───────────────────────────────────────────────────────────────────
+
+REM IFS (Installable File System) drivers
+REM EXT4 filesystem (primary root filesystem)
+IFS=C:\OS2\BOOT\EXT4.IFS /CACHE:2048 /AUTOCHECK:C
+
+REM FAT32 filesystem (EFI partition and data)
+IFS=C:\OS2\BOOT\FAT32.IFS /CACHE:1024 /AUTOCHECK:*
+
+REM exFAT filesystem (USB drives and removable media)
+IFS=C:\OS2\BOOT\EXFAT.IFS /CACHE:512
+
+REM CDFS (CD-ROM file system)
+IFS=C:\OS2\BOOT\CDFS.IFS /Q /W /CACHE:128
+
+REM HPFS (High Performance File System) - legacy support
+IFS=C:\OS2\BOOT\HPFS.IFS /CACHE:1024 /CRECL:4 /AUTOCHECK:*
+
+REM ───────────────────────────────────────────────────────────────────
+REM  SYSTEM SERVICES AND SUBSYSTEMS
+REM ───────────────────────────────────────────────────────────────────
+
+REM Presentation Manager
+PROTSHELL=C:\OS2\PMSHELL.EXE
+
+REM Shell for DOS and OS/2 sessions
+SET COMSPEC=C:\OS2\CMD.EXE
+SET OS2_SHELL=C:\OS2\CMD.EXE
+
+REM Video subsystem
+SET VIO_VGA=DEVICE(BVHVGA,BVHVGA8)
+SET VIO_SVGA=DEVICE(BVHVGA,BVHSVGA)
+
+REM ───────────────────────────────────────────────────────────────────
+REM  WORKPLACE SHELL CONFIGURATION
+REM ───────────────────────────────────────────────────────────────────
+
+REM Workplace Shell initialization
+SET RUNWORKPLACE=C:\OS2\PMSHELL.EXE
+
+REM Desktop configuration
+SET USER_INI=C:\OS2\OS2.INI
+SET SYSTEM_INI=C:\OS2\OS2SYS.INI
+
+REM Object paths
+SET SOMIR=C:\OS2\ETC\SOM.IR
+SET SOMBASE=C:\OS2\ETC
+
+REM ───────────────────────────────────────────────────────────────────
+REM  REXX CONFIGURATION
+REM ───────────────────────────────────────────────────────────────────
+
+REM REXX paths and settings
+SET REXX_PATH=C:\OS2\REXX
+SET REXXUTIL=C:\OS2\DLL\REXXUTIL.DLL
+
+REM REXX library paths
+SET REXX_LIBS=C:\OS2\REXX;C:\OS2\APPS\REXX
+
+REM ───────────────────────────────────────────────────────────────────
+REM  KEYBOARD AND LANGUAGE SUPPORT
+REM ───────────────────────────────────────────────────────────────────
+
+REM Keyboard layout (US QWERTY by default)
+REM Available layouts: us, uk, de, fr, es, it, pt, se, no, dk, fi, nl, be, ch
+REM To change: SET KEYBOARD=<layout>
+SET KEYBOARD=us
+
+REM Language support
+SET LANG=en_US
+
+REM ───────────────────────────────────────────────────────────────────
+REM  NETWORKING CONFIGURATION
+REM ───────────────────────────────────────────────────────────────────
+
+REM Network settings
+SET HOSTNAME=os2warp
+SET DOMAIN=local
+
+REM TCP/IP configuration
+REM (Configure with MPTS or TCP/IP Configuration tool)
+SET USE_HOSTS_FIRST=1
+SET NSORDER=BIND,LOCAL
+
+REM ───────────────────────────────────────────────────────────────────
+REM  PERFORMANCE TUNING
+REM ───────────────────────────────────────────────────────────────────
+
+REM Process priority boost
+PRIORITY_DISK_IO=YES
+
+REM Swapper tuning
+SWAPPATH=C:\OS2\SYSTEM 2048 8192
+
+REM Threads
+THREADS=4096
+
+REM Maximum wait time
+MAXWAIT=3
+
+REM Time slice (20ms)
+TIMESLICE=32,256
+
+REM Priority settings
+PRIORITY=DYNAMIC
+
+REM ───────────────────────────────────────────────────────────────────
+REM  APPLICATION SUPPORT
+REM ───────────────────────────────────────────────────────────────────
+
+REM DOS settings
+SET DOS_SHELL=C:\OS2\MDOS\COMMAND.COM
+SET DOS_DEVICE=C:\OS2\MDOS
+SET DOS_VERSION=20,10
+DOS=HIGH,UMB
+REM DOS=LOW,NOUMB
+
+REM Windows 3.1 support (if enabled)
+SET WINOS2_LOCATION=C:\WIN-OS2
+
+REM Print queue
+SET PRINT=C:\OS2\SPOOL
+
+REM Editor
+SET EDITOR=C:\OS2\APPS\E.EXE
+
+REM ───────────────────────────────────────────────────────────────────
+REM  DEVELOPMENT TOOLS
+REM ───────────────────────────────────────────────────────────────────
+
+REM Development paths
+SET INCLUDE=C:\OS2\H;C:\OS2\TOOLKIT\H
+SET LIB=C:\OS2\LIB;C:\OS2\TOOLKIT\LIB
+
+REM Compiler settings
+SET CCOPT=-O2 -Wall
+SET LFLAGS=-s
+
+REM ───────────────────────────────────────────────────────────────────
+REM  SYSTEM PARAMETERS
+REM ───────────────────────────────────────────────────────────────────
+
+REM Break handling
+BREAK=ON
+
+REM Shell escape
+SHELL=C:\OS2\CMD.EXE /Q /K
+
+REM AutoStart programs
+REM RUN=C:\OS2\APPS\SYSTRAY.EXE
+REM CALL=C:\OS2\APPS\STARTUP.CMD
+
+REM Trace settings (for debugging)
+REM TRACE=C:\TRACE.LOG
+REM TRACEBUF=256
+
+REM ───────────────────────────────────────────────────────────────────
+REM  ARM64-SPECIFIC SETTINGS
+REM ───────────────────────────────────────────────────────────────────
+
+REM ARM64 architecture settings
+SET PROCESSOR=ARM64
+SET CPU_TYPE=CORTEX-A72
+SET ARCH=AARCH64
+
+REM QEMU/KVM detection
+SET VIRTUALIZATION=QEMU
+
+REM Hardware acceleration (if available)
+REM SET ACCEL=HVF    (macOS)
+REM SET ACCEL=KVM    (Linux)
+REM SET ACCEL=TCG    (software)
+
+REM Memory configuration for ARM64
+SET MEM_LIMIT=2048
+SET STACK_SIZE=256
+
+REM ───────────────────────────────────────────────────────────────────
+REM  SERVICE MANAGEMENT
+REM ───────────────────────────────────────────────────────────────────
+
+REM OS/2 Service Manager configuration
+REM Services are managed by the service daemon
+REM See C:\OS2\SERVICES\ for service definitions
+
+REM Enable service manager
+REM RUN=C:\OS2\SERVICES\SVCD.EXE
+
+REM Auto-start services
+REM CALL=C:\OS2\SERVICES\START_ALL.CMD
+
+REM ───────────────────────────────────────────────────────────────────
+REM  MOUNT POINTS (VFS)
+REM ───────────────────────────────────────────────────────────────────
+
+REM Filesystem mount configuration
+REM Automatically mount filesystems at boot
+REM Format: MOUNT=<device>,<mountpoint>,<fstype>,<options>
+
+REM Root filesystem (EXT4)
+MOUNT=/dev/sda2,/,ext4,defaults
+
+REM EFI System Partition (FAT32)
+MOUNT=/dev/sda1,/boot/efi,fat32,ro
+
+REM Data partition (FAT16)
+MOUNT=/dev/sda3,/mnt/fat16,fat16,defaults
+
+REM USB/Removable media (exFAT)
+MOUNT=/dev/sda4,/mnt/exfat,exfat,defaults
+
+REM CD-ROM
+REM MOUNT=/dev/sr0,/mnt/cdrom,cdfs,ro
+
+REM ───────────────────────────────────────────────────────────────────
+REM  LOGGING AND DEBUGGING
+REM ───────────────────────────────────────────────────────────────────
+
+REM System logging
+SET LOGFILE=C:\OS2\LOG\SYSTEM.LOG
+SET LOGLEVEL=INFO
+
+REM Debug mode (set to 1 for verbose logging)
+SET DEBUG=0
+
+REM Kernel debug output
+REM SET KDEBUG=1
+
+REM ───────────────────────────────────────────────────────────────────
+REM  CUSTOM USER SETTINGS
+REM ───────────────────────────────────────────────────────────────────
+
+REM User profile
+SET USER=Administrator
+SET HOME=C:\HOME
+
+REM Prompt customization
+SET PROMPT=[$p]
+
+REM Command history
+SET CMDHIST=256
+
+REM ───────────────────────────────────────────────────────────────────
+REM  END OF CONFIG.SYS
+REM ═══════════════════════════════════════════════════════════════════
+
+REM Boot complete message
+REM The system is now configured and ready to start

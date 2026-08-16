@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['call_5fstack_0',['call_stack',['../basic_8c.html#ab28da1a2763a1315e2148be7beec1c12',1,'basic.c']]],
+  ['call_5ftop_1',['call_top',['../basic_8c.html#a8bcbc761648cc70875a966db46aa92db',1,'basic.c']]],
+  ['capacity_2',['capacity',['../structvirtio__device__t.html#a349849fa0a9f298ca2595f7baa052137',1,'virtio_device_t']]],
+  ['checksum_3',['checksum',['../structfat32__lfn__t.html#ae7a62e2c0cce365ae3c6dfac1b2edd03',1,'fat32_lfn_t']]],
+  ['close_4',['close',['../structvfs__fs.html#a6d8d10860c9178c7c5d77261f7918ec3',1,'vfs_fs']]],
+  ['closedir_5',['closedir',['../structvfs__fs.html#ab4ae65845edcbc3c806b065703d85ba9',1,'vfs_fs']]],
+  ['cluster_6',['cluster',['../structfat32__lfn__t.html#a7664535c438dabed5ac202507b6d1e87',1,'fat32_lfn_t::cluster'],['../structfat32__dir__t.html#ab68733224e239b46c6b6d4bd0744391a',1,'fat32_dir_t::cluster']]],
+  ['cluster_5fhi_7',['cluster_hi',['../structfat32__dirent__t.html#aafcd43b2917f33fa03077ecacb731ca5',1,'fat32_dirent_t']]],
+  ['cluster_5flo_8',['cluster_lo',['../structfat32__dirent__t.html#a79975623d041762a8eae8cc3dd11839b',1,'fat32_dirent_t']]],
+  ['cluster_5fseq_9',['cluster_seq',['../structfat32__file__t.html#a5607962f99ce2b6e2d8a67aa3f7ed091',1,'fat32_file_t']]],
+  ['code_10',['code',['../structbasic__line__t.html#a1b2a3a46cb7e3462e4ee2b2aef1da3e4',1,'basic_line_t']]],
+  ['const_5fcount_11',['const_count',['../basic_8c.html#ab852ef2478b8ecda2d0c3960a894c099',1,'basic.c']]],
+  ['consts_12',['consts',['../basic_8c.html#ad70cbecfd48bf0402bd2b88163304172',1,'basic.c']]],
+  ['creation_5fdate_13',['creation_date',['../structFILESTATUS.html#a1852f31d36b44aae9959426c802bc463',1,'FILESTATUS::creation_date'],['../structFILEFINDBUF.html#a2c3e2a83dccffd35080ad8b178dfaa5e',1,'FILEFINDBUF::creation_date']]],
+  ['creation_5ftime_14',['creation_time',['../structFILESTATUS.html#a04fc5ef7bb06c56b51147e4d0f271db4',1,'FILESTATUS::creation_time'],['../structFILEFINDBUF.html#a4fa7ffcb29fa67bbebfae576c02fa748',1,'FILEFINDBUF::creation_time']]],
+  ['crt_5fdate_15',['crt_date',['../structfat32__dirent__t.html#af2fcbf7ee2865d4864c04d6fd6d19733',1,'fat32_dirent_t']]],
+  ['crt_5ftime_16',['crt_time',['../structfat32__dirent__t.html#a96042ae61f3cf9174bf26982bacff871',1,'fat32_dirent_t']]],
+  ['crt_5ftime_5ftenth_17',['crt_time_tenth',['../structfat32__dirent__t.html#a0783960deb1921f5c57e90db364ec215',1,'fat32_dirent_t']]],
+  ['cur_5fcluster_18',['cur_cluster',['../structfat32__file__t.html#af9bfcdff97650e311b8980543062cc76',1,'fat32_file_t']]],
+  ['cur_5fidx_19',['cur_idx',['../basic_8c.html#ac57274b79af9ff50ac585ccb88a8efb9',1,'basic.c']]],
+  ['cur_5fstmt_20',['cur_stmt',['../basic_8c.html#a57aab6d158dbe6f3b190451a992f77f2',1,'basic.c']]],
+  ['current_5flba_21',['current_lba',['../structgpt__header__t.html#ae7dfd6c46243eb0f82caafb10cf70c99',1,'gpt_header_t']]],
+  ['cwd_22',['cwd',['../cli__fs_8c.html#afbd3d976ae1044a74c526c03cb1d446a',1,'cwd:&#160;cli_fs.c'],['../shell_8c.html#a48bfefeb3b1e17ab46ef2fb8b07c85bd',1,'cwd:&#160;shell.c']]]
+];

@@ -1,0 +1,10 @@
+prefix=/Users/pedro/CLionProjects/os2/external/gnu-efi-install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: gnu-efi
+Description: GNU EFI development library
+Version: 4.0.4
+Libs: -L${libdir} -lefi -lgnuefi
+Cflags: -I${includedir}/efi -I${includedir}/efi/aarch64
